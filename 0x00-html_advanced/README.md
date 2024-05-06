@@ -4,7 +4,7 @@
 
 ![5d9e347964a9cc0e3e24](https://github.com/hyper-ayoub/alx-frontend/assets/133155846/14f68316-78e4-481c-bada-20384592e6ec)
 
-#👋 Welcome!
+#   👋Welcome!
 
 Welcome to the Web Stack specialization. The 3 first projects will give you all basics of the Web development: HTML, CSS and Developer tools.
 
