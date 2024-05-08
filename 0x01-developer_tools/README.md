@@ -1,4 +1,4 @@
-# 0x01-developer_tools
+0x01-developer_tools
 
 
 ![0872ca9b19e11650e355](https://github.com/hyper-ayoub/alx-frontend/assets/133155846/443e3f4f-32d2-4767-875c-37f268cf365f)
