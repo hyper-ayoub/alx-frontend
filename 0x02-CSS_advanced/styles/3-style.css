@@ -1,1 +1,27 @@
+/** root here **/
 
+:root {
+    --color-primary: #d73953;
+    --color-black:  #090909;
+    --color-primary: #ffffff;
+    --color-primary: #f3f3f3;
+    --color-primary: #353535;
+    --text-color: var(--color-black)
+}
+
+body {
+    color: var(--color-black);
+}
+
+a{
+    color: var(--color-black);
+}
+.visually-hidden {
+    display: none;
+}
+.card-category {
+    color: #D73953;
+}
+.section-tagline {
+    color: var(--color-primary);
+}
