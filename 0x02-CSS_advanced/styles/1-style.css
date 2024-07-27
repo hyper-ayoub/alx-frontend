@@ -1,7 +1,10 @@
 body {
     color:#161616;
 }
-
+ /*Effortless transitions when scrolling*/
+html {
+     scroll-behavior: smooth;
+}
 a {
     color: #161616;
 }
