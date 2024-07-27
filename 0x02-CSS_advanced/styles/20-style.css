@@ -155,6 +155,11 @@ ul.row{
     padding: 0; /* Remove padding all around */
     list-style: none; /* Remove default list styles (bullets, numbers, etc.) */
 }
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .col-1-3  {
     float: left;
     width: 33.33%;
@@ -172,9 +177,4 @@ ul.row{
 }
 .footer ul {
     text-align: right; /* Align text to the right */
-}
-.row {
-    content: "";
-    display: table;
-    clear: both;  /*do not allow any floating elements on either side*/
 }
