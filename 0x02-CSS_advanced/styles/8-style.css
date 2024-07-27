@@ -31,7 +31,7 @@ body {
     font-family:var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
-    min-height: var(--line-height-base);
+    line-height: var(--line-height-base); /*minimum height of line boxes in the body to line-height-base*/
 
 }
 h1, h2, h3, h4, h5, h6{
