@@ -166,9 +166,9 @@ ul.row{
     float: left;
     padding: 0.5rem 1rem;
 }
-.footer-copyright{
+.footer-copyright {
+    font-size: var(--font-size-small);
     margin: 0;
-    font-size: var(--font-family-small);
     color: var(--text-color);
 }
 .footer ul {
