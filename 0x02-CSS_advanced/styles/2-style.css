@@ -2,7 +2,7 @@ body {
     color:#161616;
 }
 
-a[href="#"]{
+a[href=""]{
     color: #161616;
 }
 .visually-hidden {
