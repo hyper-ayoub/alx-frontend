@@ -48,11 +48,12 @@
 *::after {
     box-sizing: border-box;
 }
-
+/* Add a dark theme to sections*/
 [data-section-theme="dark"]{
     --text-color: var(--color-white);
     --section-title-color:var(--color-white);
-    --background: var(--color-black);
+    background: var(--color-black); /* Set background to color-black */
+    color: var(--text-color); /* Apply the custom text color */
 }
 html {
     scroll-behavior: smooth;
