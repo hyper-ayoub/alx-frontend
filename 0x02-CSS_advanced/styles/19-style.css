@@ -156,8 +156,8 @@ ul.row{
     list-style: none; /* Remove default list styles (bullets, numbers, etc.) */
 }
 .col-1-3  {
-    width: 33.33%;
     float: left;
+    width: 33.33%;
     padding: 1rem;
 }
 .col-1-2 {
