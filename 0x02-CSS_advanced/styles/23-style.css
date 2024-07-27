@@ -200,6 +200,7 @@ ul.row{
 .social-link {
 
 }
+
 .social-link svg {
-    color: var(--text-color);
+    fill: var(--text-color); /* Fill svg children with text color */
 }
