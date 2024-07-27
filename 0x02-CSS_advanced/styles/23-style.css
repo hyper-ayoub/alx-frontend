@@ -39,8 +39,6 @@
     --nav-item-margin: 0 0 3rem 0; /*nav-item-marginto 3 times the root element on the bottom and 0 elsewhere*/
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
-    --background-color: var(--color-black);
-
 }
 
 /* Apply box-sizing to all elements and pseudo-elements */
@@ -186,4 +184,22 @@ ul.row{
     float: left;
     padding: 0.5rem;
  
+}
+/* Add a dark theme to sections*/
+[data-section-theme="dark"]{
+    --text-color: var(--color-white);
+    --section-title-color:var(--color-white);
+    background: var(--color-black); /* Set background to color-black */
+    color: var(--text-color); /* Apply the custom text color */
+}
+/* footer */
+.footer-address {
+    color: var(--text-color);
+
+}
+.social-link {
+
+}
+.social-link svg {
+    color: var(--text-color);
 }
