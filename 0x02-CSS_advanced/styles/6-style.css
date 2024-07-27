@@ -8,7 +8,7 @@
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-weight-regular: 400px;
-    --font-weight-bold: 700;
+    --font-weight-bold: 700px;
     --font-size-xx-large: 4.8rem;
     --color-primary: #030303;
     --color-black:   #090909;
@@ -32,7 +32,8 @@ body {
 }
 h1, h2, h3, h4, h5, h6{
     font-family:var(--font-family-title);
-    font-weight: var(--font-weight-bold);
+    font-weight:var(--font-weight-bold);
+
 }
 a{
     color: var(--color-black);
