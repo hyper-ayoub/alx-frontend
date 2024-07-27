@@ -134,14 +134,16 @@ a:active{
 }
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
-    font-weight: var(--nav-item-font-weight);
+    font-weight: var(--nav-item-font-bold);
     font-size: var(--nav-item-font-size);
-    justify-content: var(--nav-item-letter-spacing) ;
+    letter-spacing: var(--nav-item-letter-spacing);
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
 .nav .nav-link {
     display: block;
+    padding-top: calc(0.5 * var(--root-margin));
+    padding-bottom: calc(0.5 * var(--root-margin));
 }
 .nav .nav-link:hover{
     color: var(--nav-item-link-hover);
