@@ -163,11 +163,11 @@ ul.row{
 .col-1-2 {
     width: 50%;
     float: left;
-    padding: 1rem;
+    padding: var(--root);
 }
 .footer-copyright{
     margin: 0;
-    size: var(--font-family-small);
+    font-size: var(--font-family-small);
     color: var(--text-color);
 }
 ul.footer {
