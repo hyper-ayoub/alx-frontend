@@ -159,12 +159,12 @@ ul.row{
     float: left;
     
     width: 33.33%;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
 }
 .col-1-2 {
     width: 50%;
     float: left;
-    padding: var(--root);
+    padding: 0.5rem 1rem;
 }
 .footer-copyright{
     margin: 0;
