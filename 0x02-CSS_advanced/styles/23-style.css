@@ -198,9 +198,10 @@ ul.row{
 
 }
 .social-link {
-
+/*Style it so that it renders as a block element*/
+    display:block;
 }
 
-.social-link svg {
+.social-link  > svg {
     fill: var(--text-color); /* Fill svg children with text color */
 }
