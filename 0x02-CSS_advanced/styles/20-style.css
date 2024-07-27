@@ -173,7 +173,7 @@ ul.row{
 .footer ul {
     text-align: right; /* Align text to the right */
 }
-.row ::after{
+.row {
     content: "";
     display: table;
     clear: both;  /*do not allow any floating elements on either side*/
