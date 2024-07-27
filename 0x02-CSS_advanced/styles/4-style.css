@@ -1,24 +1,23 @@
 /** root here **/
 
 :root {
+    --font-family-base:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title:'Helvetica Neue', Helvetica, Arial, sans-serif;
     --color-primary: #d73953;
     --color-black:   #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
     --text-color: var(--color-black)
-    --font-family-base:'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-family-title:'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 body {
     color: var(--text-color);
-    font-family: var(--font-family-base);
+    font-family:var(--font-family-base);
 
 }
-
 h1,h2,h3 {
-    font-family: var(--font-family-titlen);
+    font-family: var(--font-family-title);
 }
 
 a{
