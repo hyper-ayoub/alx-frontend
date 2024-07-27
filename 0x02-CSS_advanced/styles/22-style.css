@@ -17,7 +17,7 @@
     --line-height-big: 1.8;
     --section-header-align:center;
     --section-title-margin:0;
-    --section-title-color: var(--color-white);
+    --section-title-color: var(--color-black);
     --section-tagline-transform:uppercase;
     --section-padding:5rem 0;
     --section-header-padding: 0 0 3rem;
@@ -30,7 +30,7 @@
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: var(--color-white);
+    --text-color: var(--color-black);
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
@@ -39,7 +39,6 @@
     --nav-item-margin: 0 0 3rem 0; /*nav-item-marginto 3 times the root element on the bottom and 0 elsewhere*/
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
-    --background-color: var(--color-black);
 
 }
 
@@ -50,7 +49,11 @@
     box-sizing: border-box;
 }
 
-
+[data-section-theme="dark"]{
+    --text-color: var(--color-white);
+    --section-title-color:var(--color-white);
+    --background: var(--color-black);
+}
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
@@ -151,27 +154,30 @@ a:active{
     color: var(--nav-item-link-hover);
 }
 
-
 ul.row{
     margin: 0; /* Remove margins all around */
     padding: 0; /* Remove padding all around */
     list-style: none; /* Remove default list styles (bullets, numbers, etc.) */
 }
-.row{
+.row::after {
     content: "";
     display: table;
-    clear: both;  /*do not allow any floating elements on either side*/
+    clear: both;
 }
-
 .col-1-3  {
-    float: left;
     width: 33.33%;
-    padding: 1rem;
-}
+    /*Remove references to these common properties for the individual col-1-3 and col-1-2 classes*/
+  }
 .col-1-2 {
     width: 50%;
+      /*Remove references to these common properties for the individual col-1-3 and col-1-2 classes*/
+    
+}
+[class*="col-"] {
     float: left;
     padding: 0.5rem;
+    */Hint: be mindful of specificity*/
+    
 }
 .footer-copyright{
     margin: 0;
@@ -180,10 +186,4 @@ ul.row{
 }
 .footer ul {
     text-align: right; /* Align text to the right */
-}
-
-[class*="col-"] {
-    float: left;
-    padding: 0.5rem;
- 
 }
