@@ -170,6 +170,6 @@ ul.row{
     font-size: var(--font-family-small);
     color: var(--text-color);
 }
-ul.footer {
+ul .footer {
     text-align: right;
 }
