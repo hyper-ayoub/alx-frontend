@@ -10,17 +10,17 @@
 }
 
 body {
-   color: var(--text-color);
+    color: var(--text-color);
 }
 
 a{
-    color: var(--text-color);
+    color: var(--color-black);
 }
 .visually-hidden {
     display: none;
 }
 .card-category {
-    color: #D73953;
+    color: var(--color-primary);
 }
 .section-tagline {
     color: var(--color-primary);
