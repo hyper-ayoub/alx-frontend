@@ -2,15 +2,15 @@ body {
     color:#161616;
 }
 
-a{
+a[href="#"]{
     color: #161616;
 }
 .visually-hidden {
     display: none;
 }
 .card-category {
-    background-color: #D73953;
+    color: #D73953;
 }
 .section-tagline {
-    background-color: #D73953;
+    color: #D73953;
 }
