@@ -34,11 +34,10 @@
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 0.04rem;
+    --nav-item-letter-spacing: 0.04rem; /*nav-item-letter-spacing set to 4% of the root element*/
     --nav-item-display: inline-block; /* Example display property */
-    --nav-item-margin: 0 0 3rem 0;
+    --nav-item-margin: 0 0 3rem 0; /*nav-item-marginto 3 times the root element on the bottom and 0 elsewhere*/
     --nav-item-link-hover: var(--color-primary);
-    --root-margin: 1rem;
 }
 
 /* Apply box-sizing to all elements and pseudo-elements */
@@ -142,7 +141,7 @@ a:active{
 }
 .nav .nav-link {
     display: block;
-     padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem; /*set the padding to half of the root element for top and bottom, and equal to the root element for left and right*/
 }
 .nav .nav-link:hover{
     color: var(--nav-item-link-hover);
