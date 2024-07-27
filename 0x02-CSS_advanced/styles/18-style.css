@@ -32,9 +32,9 @@
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
     --nav-item-font-family: var(--font-family-title);
-    --nav-item-font-weight: var(--font-family-bold);
+    --nav-item-font-weight: var(--font-weight-bold);
     --nav-item-font-size: var(--font-size-medium);
-    --nav-item-letter-spacing: 4%; /* Example letter spacing */
+    --nav-item-letter-spacing: var( 4% var(--root-margin));
     --nav-item-display: inline-block; /* Example display property */
     --nav-item-margin: 0.5rem; /* Example margin */
     --nav-item-link-hover: var(--color-primary);
@@ -142,8 +142,7 @@ a:active{
 }
 .nav .nav-link {
     display: block;
-    padding-top: calc(0.5 * var(--root-margin));
-    padding-bottom: calc(0.5 * var(--root-margin));
+    padding: var(--root-margin);
 }
 .nav .nav-link:hover{
     color: var(--nav-item-link-hover);
