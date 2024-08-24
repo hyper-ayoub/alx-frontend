@@ -211,11 +211,11 @@ ul.row{
     margin: 0;
 }
 .card-services a {
-    box-sizing: border-box;
-    padding: 1rem;
+    display: block;
+    padding: 2rem;
     background-color: var(--color-light-grey);
 }
-.card-services a :hover{
+.card-services a:hover{
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
