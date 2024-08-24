@@ -245,8 +245,8 @@ color: var(--button-hover-color); /*in selector for hover state of buttons, colo
 background: var(--button-hover-background);
 }
 
-/*Use the value of the variable button-hover-background for the background
-In [data-section-theme="dark"], add the variable*/
+
+/*In [data-section-theme="dark"], add the variable*/
 [data-section-theme="dark"] {
     --button-color: var(--color-white);
 }
