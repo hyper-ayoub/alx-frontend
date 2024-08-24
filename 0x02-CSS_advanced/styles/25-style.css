@@ -232,9 +232,9 @@ ul.row{
 /* button section here */
 .button {
     display: var(--button-display);
-    padding: var(--)var(--button-padding);
+    padding: var(--button-padding);
     border: var(--button-border);
-    font-size: var(--)var(--button-font-size);
+    font-size: var(--button-font-size);
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
 }
