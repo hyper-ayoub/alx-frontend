@@ -269,7 +269,7 @@ In [data-section-theme="dark"], add the variable*/
 
 /*** hero section **/
 .section-hero {
-    background-size: 50% 100%;
+    background-size: 50% 50%;
     width: 90rem;
     height: auto;
 }
