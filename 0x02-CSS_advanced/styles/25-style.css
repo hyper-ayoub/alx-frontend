@@ -38,7 +38,7 @@
     --button-font-size: var(--font-size-large);
     --button-hover-color: var(--color-white);
     --button-hover-text-decoration: none;
-    --button-hover-background: var(--color-primary); /*end of button section */
+    --button-hover-background: var(--color-primary) /*end of button section */
     --text-color: var(--color-white);
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
@@ -229,4 +229,23 @@ ul.row{
     background-color: var(--color-primary);
     text-decoration: none;
 }
+/* button section here */
+.button {
+    display: var(--button-display);
+    padding: var(--)var(--button-padding);
+    border: var(--button-border);
+    font-size: var(--)var(--button-font-size);
+    color: var(--button-color);
+    text-decoration: var(--button-text-decoration);
+}
+.button:hover {
+color: var(--button-hover-color);
+text-decoration: var(--button-hover-text-decoration);
+color: var(--button-color);
+}
 
+/*Use the value of the variable button-hover-background for the background
+In [data-section-theme="dark"], add the variable*/
+[data-section-theme="dark"] {
+    background: var(--button-hover-background);
+}
