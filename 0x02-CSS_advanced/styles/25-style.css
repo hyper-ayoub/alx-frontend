@@ -247,6 +247,6 @@ background: var(--button-hover-background);
 
 /*Use the value of the variable button-hover-background for the background
 In [data-section-theme="dark"], add the variable*/
-[data-section-theme="dark"] button {
+[data-section-theme="dark"] button-color {
     color: var(--color-white);
 }
