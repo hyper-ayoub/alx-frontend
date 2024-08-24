@@ -211,12 +211,12 @@ ul.row{
     margin: 0;
 }
 .card-services a {
-    display: block;
-    padding: 2rem;
+    display: block; /*Have them render as block level elements*/
+    padding: 2rem; /*The padding should be set to 2x the root element*/
     background-color: var(--color-light-grey);
 }
 .card-services a:hover{
-    color: var(--color-white);
+    color: var(--color-white); /*Set the foreground color to the variable color-white*/
     background-color: var(--color-primary);
     text-decoration: none;
 }
