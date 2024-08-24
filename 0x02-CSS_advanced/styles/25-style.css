@@ -241,11 +241,12 @@ ul.row{
 .button:hover {
 color: var(--button-hover-color);
 text-decoration: var(--button-hover-text-decoration);
-color: var(--button-color);
+color: var(--button-hover-color); /*in selector for hover state of buttons, color set to button-hover-color*/
+background: var(--button-hover-background);
 }
 
 /*Use the value of the variable button-hover-background for the background
 In [data-section-theme="dark"], add the variable*/
 [data-section-theme="dark"] {
-    background: var(--button-hover-background);
+    color: var(--button-color);
 }
