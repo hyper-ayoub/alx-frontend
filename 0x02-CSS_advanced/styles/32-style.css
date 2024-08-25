@@ -367,7 +367,7 @@ we wil use 90rem instead of width and height **/
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
-    transition: var(–transition-duration) var(transition-cubic-bezier);
+    transition-duration: var(--transition-duration)
 }
 .card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
