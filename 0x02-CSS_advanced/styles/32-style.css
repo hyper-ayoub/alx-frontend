@@ -172,6 +172,7 @@ a:active{
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;  /**Set the height to 20% of the root element value**/
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 /**Target the before pseudo elements of nav-link when nav-item is hover and is inside nav**/
 .nav .nav-item:hover .nav-link::before{
