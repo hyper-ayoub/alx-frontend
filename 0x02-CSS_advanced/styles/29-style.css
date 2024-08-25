@@ -2,6 +2,7 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
 /*# sourceMappingURL=normalize.min.css.map */
 
+
 :root {
     --font-family-base: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif; 
     --font-family-title: 'Raleway', Helvetica Neue, Helvetica ,Arial, sans-serif;
@@ -30,6 +31,21 @@
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
+    --button-display: inline-block; /*button section start here */
+    --button-padding: 1.5rem 3rem;
+    --button-border: 0.2rem solid var(--color-primary);
+    --button-color: var(--color-black);
+    --button-text-decoration: none;
+    --button-font-size: var(--font-size-large);
+    --button-hover-color: var(--color-white);
+    --button-hover-text-decoration: none;
+    --button-hover-background: var(--color-primary); /*end of button section */
+    --header-padding: 4rem 0 0;/*header section start here */
+    --header-logo-position: relative;
+    --header-logo-link-display: inline-block;
+    --header-logo-link-position: absolute;
+    --header-logo-link-top: -1rem;
+    --header-logo-link-left: 0; /*header section end here */
     --text-color: var(--color-white);
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
@@ -37,7 +53,7 @@
     --nav-item-letter-spacing: 0.04rem; /*nav-item-letter-spacing set to 4% of the root element*/
     --nav-item-display: inline-block; /* Example display property */
     --nav-item-margin: 0 0 3rem 0; /*nav-item-marginto 3 times the root element on the bottom and 0 elsewhere*/
-    --nav-item-link-hover: var(--color-white);
+    --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
 }
 
@@ -163,6 +179,14 @@ a:active{
     color: var(--nav-item-link-hover);
 }
 /* update end here */
+.nav .nav-link {
+    display: block;
+    padding: 0.5rem 1rem; /*set the padding to half of the root element for top and bottom, and equal to the root element for left and right*/
+}
+.nav .nav-link:hover{
+    color: var(--nav-item-link-hover);
+}
+
 
 ul.row{
     margin: 0; /* Remove margins all around */
@@ -218,4 +242,88 @@ ul.row{
 
 .social-link > svg {
     fill: var(--text-color); /* Fill svg children with text color */
+}
+
+/* card section */
+.card-services .card-title {
+    margin: 0;
+}
+.card-services a {
+    display: block;
+    padding: 2rem;
+    background-color: var(--color-light-grey);
+}
+.card-services a:hover{
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
+}
+/* button section here */
+.button {
+    display: var(--button-display);
+    padding: var(--button-padding);
+    border: var(--button-border);
+    font-size: var(--button-font-size);
+    color: var(--button-color);
+    text-decoration: var(--button-text-decoration);
+}
+.button:hover {
+color: var(--button-hover-color);
+text-decoration: var(--button-hover-text-decoration);
+color: var(--button-hover-color); /*in selector for hover state of buttons, color set to button-hover-color*/
+background: var(--button-hover-background);
+}
+
+/*Use the value of the variable button-hover-background for the background
+In [data-section-theme="dark"], add the variable*/
+[data-section-theme="dark"] {
+    --button-color: var(--color-white);
+}
+
+
+/*** testimonial ***/
+.card-testimonial {
+    text-align: center;
+}
+.card-testimonial .card-avatar{
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+}
+.card-testimonial .card-quote cite {
+    display: block;
+    padding: 1rem;
+    color: var(--color-primary);
+}
+
+/*** hero section **/
+/**Set the size of the background using 2-value syntax
+Width should be 90rem and the height should be set automatic 
+we wil use 90rem instead of width and height **/
+.section-hero {
+    background-size: 90rem auto;
+    width: 90rem;
+    height: auto;
+}
+.section-hero .section-title {
+    margin-bottom: 5rem;
+}
+.section-hero .section-inner {
+    margin-bottom: 5rem;
+    padding: 10rem 40rem 2rem 0;/*Add 10rem, 40rem, 2rem, and 0 to the padding on the top, right, bottom, left all in 1 rule*/
+}
+
+/** header **/
+.header {
+    padding: var(--header-padding);
+}
+
+.header-logo {
+    position: var(--header-logo-position);
+}
+.header-logo a{
+    display: var(--header-logo-link-display);
+    position: var(--header-logo-link-position);
+    top: var(--header-logo-link-top); /**Set the vertical position of the element using header-logo-link-top**/
+    left: var(--header-logo-link-left);/**Set the horizontal position of the element using header-logo-link-left**/
 }
