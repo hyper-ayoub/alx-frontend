@@ -276,6 +276,7 @@ color: var(--button-hover-color);
 text-decoration: var(--button-hover-text-decoration);
 color: var(--transition-property); /*in selector for hover state of buttons, color set to button-hover-color*/
 background: var(--transition-property);
+transition: var(--transition-duration) var(--transition-cubic-bezier);
 
 }
 
@@ -399,7 +400,7 @@ we wil use 90rem instead of width and height **/
 /** the final card work update😍😍👽 **/
 .card-work:hover .card-image {
     transform: scale(1.2);
-    transition: 0.5s var(--transition-cubic-bezier);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 .card-work:hover .card-outer {
     transform: scale(0.95);
