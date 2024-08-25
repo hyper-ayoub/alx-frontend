@@ -298,7 +298,7 @@ we wil use 90rem instead of width and height **/
 .header-logo {
     position: var(--header-logo-position);
 }
-.header-logo  a {
+.header-logo a{
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
     top: var(--header-logo-link-top); /**Set the vertical position of the element using header-logo-link-top**/
