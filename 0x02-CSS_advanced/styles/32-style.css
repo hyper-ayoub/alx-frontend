@@ -275,8 +275,8 @@ ul.row{
 color: var(--button-hover-color);
 text-decoration: var(--button-hover-text-decoration);
 color: var(--transition-duration) var(--transition-cubic-bezier); /*in selector for hover state of buttons, color set to button-hover-color*/
-background-color: var(--transition-duration) var(--transition-cubic-bezier); ;
-
+background-color: var(--transition-duration) var(--transition-cubic-bezier);
+transition-duration: var(--transition-duration)
 }
 
 /*Use the value of the variable button-hover-background for the background
