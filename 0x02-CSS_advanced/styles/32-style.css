@@ -400,7 +400,7 @@ we wil use 90rem instead of width and height **/
 /** the final card work update😍😍👽 **/
 .card-work:hover .card-image {
     transform: scale(1.2);
-    transition: var(–transition-duration) var(transition-cubic-bezier);
+    transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 .card-work:hover .card-outer {
     transform: scale(0.95);
