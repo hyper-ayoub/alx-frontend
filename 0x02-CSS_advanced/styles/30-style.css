@@ -371,6 +371,5 @@ we wil use 90rem instead of width and height **/
     content: "";
 }
 
-.card-work .card-title:hover{
-    opacity: 1;
-}
+.card-work:hover .card-title{
+    opacity:1;
