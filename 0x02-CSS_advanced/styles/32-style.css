@@ -276,7 +276,7 @@ color: var(--button-hover-color);
 text-decoration: var(--button-hover-text-decoration);
 color: var(--transition-property); /*in selector for hover state of buttons, color set to button-hover-color*/
 background: var(--transition-property);
-transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+transition: 0.5s cubic-bezier(0.17, 0.67, 0, 1.01);
 
 }
 
