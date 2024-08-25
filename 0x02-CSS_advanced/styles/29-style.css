@@ -37,7 +37,7 @@
     --nav-item-letter-spacing: 0.04rem; /*nav-item-letter-spacing set to 4% of the root element*/
     --nav-item-display: inline-block; /* Example display property */
     --nav-item-margin: 0 0 3rem 0; /*nav-item-marginto 3 times the root element on the bottom and 0 elsewhere*/
-    --nav-item-link-hover: var(--color-primary);
+    --nav-item-link-hover: var(--color-white);
     --section-tagline-margin: 0;
 }
 
