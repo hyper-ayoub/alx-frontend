@@ -269,7 +269,7 @@ In [data-section-theme="dark"], add the variable*/
 
 /*** hero section **/
 .section-hero {
-    background-size: 50% 50%;
+    background-size: 50rem auto;
     width: 90rem;
     height: auto;
 }
@@ -278,5 +278,5 @@ In [data-section-theme="dark"], add the variable*/
 }
 .section-hero .section-inner {
     margin-bottom: 5rem;
-    padding-top: 10rem 40rem 2rem 0;/*Add 10rem, 40rem, 2rem, and 0 to the padding on the top, right, bottom, left all in 1 rule*/
+    padding: 10rem 40rem 2rem 0;/*Add 10rem, 40rem, 2rem, and 0 to the padding on the top, right, bottom, left all in 1 rule*/
 }
