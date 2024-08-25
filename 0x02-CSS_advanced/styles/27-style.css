@@ -268,8 +268,11 @@ In [data-section-theme="dark"], add the variable*/
 }
 
 /*** hero section **/
+/**Set the size of the background using 2-value syntax
+Width should be 90rem and the height should be set automatic 
+we wil use 90rem instead of width and height **/
 .section-hero {
-    background-size: 50rem auto;
+    background-size: 90rem auto;
     width: 90rem;
     height: auto;
 }
