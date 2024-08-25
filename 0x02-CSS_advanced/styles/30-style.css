@@ -338,16 +338,17 @@ we wil use 90rem instead of width and height **/
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    bottom: 0; /**Vertically align to the bottom**/
+    vertical-align: bottom;
+      /**Vertically align to the bottom**/
 }
 .card-work .card-inner {
     position: absolute;
     top: -0.1rem;
-    margin-left: -0.1rem;
-    margin-right: -0.1rem;
+    left: -0.1rem;
+    right: -0.1rem;
     z-index: 1;
 }
-.card-work .card-inner:hover {
+.card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
 }
 .card-work .card-title {
@@ -355,6 +356,7 @@ we wil use 90rem instead of width and height **/
     margin: 0;
     height: 100%;
     position: relative;
+    opacity: 0;
 
 }
 .card-work .card-title a {
@@ -373,3 +375,4 @@ we wil use 90rem instead of width and height **/
 
 .card-work:hover .card-title{
     opacity:1;
+}
