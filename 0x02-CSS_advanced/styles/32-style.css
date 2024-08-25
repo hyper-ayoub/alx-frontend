@@ -272,11 +272,12 @@ ul.row{
     text-decoration: var(--button-text-decoration);
 }
 /** the finalupdate😍😍👽 **/
+/**The transition effect should be applied to the color and background-color properties (transition-property)**/
 .button:hover {
-color: var(–transition-duration) var(transition-cubic-bezier);
+color: var(--button-hover-color);
 text-decoration: var(--button-hover-text-decoration);
-background-color: var(–transition-duration) var(transition-cubic-bezier);
-transition-duration: var(--transition-duration)
+background-color: var(--button-hover-background);
+transition-duration: var(--transition-duration);
 }
 
 /*Use the value of the variable button-hover-background for the background
