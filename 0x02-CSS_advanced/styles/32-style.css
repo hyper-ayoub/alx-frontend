@@ -273,9 +273,9 @@ ul.row{
 }
 /** the finalupdate😍😍👽 **/
 .button:hover {
-color: transition var(–transition-duration) var(transition-cubic-bezier);
+color: var(–transition-duration) var(transition-cubic-bezier);
 text-decoration: var(--button-hover-text-decoration);
-background-color: transition var(–transition-duration) var(transition-cubic-bezier);
+background-color: var(–transition-duration) var(transition-cubic-bezier);
 transition-duration: var(--transition-duration)
 }
 
