@@ -271,11 +271,11 @@ ul.row{
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
 }
-/** the final update😍😍👽 **/
+/** the finalupdate😍😍👽 **/
 .button:hover {
-color: var(-- transition-property);
+color: transition var(–transition-duration) var(transition-cubic-bezier);
 text-decoration: var(--button-hover-text-decoration);
-background-color: var(-- transition-property);
+background-color: transition var(–transition-duration) var(transition-cubic-bezier);
 transition-duration: var(--transition-duration)
 }
 
