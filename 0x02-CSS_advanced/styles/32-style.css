@@ -271,12 +271,11 @@ ul.row{
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
 }
-/** the final card work update😍😍👽 **/
+/** the final update😍😍👽 **/
 .button:hover {
-color: var(--button-hover-color);
+color: var(-- transition-property);
 text-decoration: var(--button-hover-text-decoration);
-color: var(--transition-duration) var(--transition-cubic-bezier); /*in selector for hover state of buttons, color set to button-hover-color*/
-background-color: var(--transition-duration) var(--transition-cubic-bezier);
+background-color: var(-- transition-property);
 transition-duration: var(--transition-duration)
 }
 
